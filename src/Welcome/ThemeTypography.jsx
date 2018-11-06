@@ -46,14 +46,11 @@ export default function ThemeTypography() {
         <small>
           TTNorms-Regular, 0.9375rem (15px), #575756, line-height: 20px
         </small>
-        <small style={{ color: "red", display: "block" }}>
+        <small style={{ color: "red", display: "block", marginTop: '12px' }}>
           Small and hard to read for many people so use with caution
         </small>
         <br />
 
-        <a style={{ marginLeft: "-16px", marginTop: "48px" }}>This is a link</a>
-        <small>TTNorms-Medium, 1rem (16px), #575756, line-height: 22px</small>
-        <br />
       </div>
     </FontStyles>
   );

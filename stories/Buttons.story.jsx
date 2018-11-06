@@ -16,12 +16,15 @@ const ButtonStyles = styled.div`
     margin-bottom: 50px;
   }
 
+
+
   a,
   button {
     margin-right: 25px;
   }
 
   a {
+  padding: 8px 16px 8px 16px
   font-weight: 500;
   font-size: 1rem;
   text-decoration: none;
@@ -31,7 +34,6 @@ const ButtonStyles = styled.div`
     font-weight: 500;
     margin-bottom: 40px
   }
-
 `;
 
 storiesOf("Buttons", module).add(
@@ -51,7 +53,7 @@ storiesOf("Buttons", module).add(
 
       <h2>Link style</h2>
       <div className="list">
-      <a style={{color: '#00BFAC'}} target='blank' href="https://www.vivy.com/impressum/">Impressum</a>
+      <a style={{color: '#00BFAC', marginLeft:'-16px'}} target='blank' href="https://www.vivy.com/impressum/">Impressum</a>
       <a style={{color: '#bfbfbf'}} target='blank' href="https://www.vivy.com/impressum/">Impressum</a>
 
       </div>

@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
 const FontStyles = styled.div`
+  
+h1, h2, h3, h4, h5 , p, small {
+::selection {
+  background: #03D4BF;
+  color: #fff
+}
+}
+
   h1 {
     font-size: 3rem;
     font-weight: 500;
@@ -78,16 +86,7 @@ const FontStyles = styled.div`
     color: #898988;
   }
 
-  a {
-    font-size: 16px;
-    display: block;
-    font-weight: 500;
-    font-stretch: normal;
-    letter-spacing: normal;
 
-    color: #00bfac;
-    padding: 16px;
-  }
 `;
 
 export default FontStyles;

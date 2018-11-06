@@ -36,7 +36,6 @@ const ButtonStyles = styled.div`
     font-size: 1em;
     line-height: normal;
     font-weight: 500;
-
   }
 
   .primary {
