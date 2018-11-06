@@ -67,22 +67,20 @@ const ButtonStyles = styled.div`
   .secondary {
     ${transitionBackgroundColor};
     background-color: #fff;
-    border: solid 2px #00bfac;
+    border: solid 1px #00bfac;
     color: #00bfac;
 
     &:hover {
       ${transitionBackgroundColor};
       background-color: #04d4bf;
-      border: solid 2px #04d4bf;
-      box-shadow: 0px 4px 8px 0px rgba(87,87,86,0.25);
+      border: solid 1px #04d4bf;
       color: white;
     }
 
     &:active {
       ${transitionBackgroundColor};
       background-color: #00bfac;
-      border: solid 2px #00bfac;
-      box-shadow: 0px 4px 8px 0px rgba(87,87,86,0.25);
+      border: solid 1px #00bfac;
     }
 
     &:disabled {

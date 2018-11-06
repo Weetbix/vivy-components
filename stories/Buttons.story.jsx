@@ -24,7 +24,7 @@ const ButtonStyles = styled.div`
   a {
   font-weight: 500;
   font-size: 1rem;
-
+  text-decoration: none;
   }
 
   h2 {
