@@ -14,14 +14,18 @@ export default function ThemeColors() {
             <div>
               <h2>Colors</h2>
               <Row>
-                <ColorBox description="Brand color" color="#04d4bf" />
-                <ColorBox description="Alt brand color" color="#05e6c8" />
-                <ColorBox description="Actionable text" color="#09cbb8" />
-                <ColorBox description="Alert" color="#e94119" />
-                <ColorBox description="Background" color="#f5f5f5" dark />
-                <ColorBox description="Primary" color="#353f41" />
-                <ColorBox description="Secondary" color="#7b7b7b" />
-                <ColorBox description="Hint" color="#bfbfbf" />
+                <ColorBox description="Brand Primary" color="#03D4BF" />
+                <ColorBox description="Brand Alternative" color="#00BFAC" />
+                <ColorBox description="Brand Destructive" color="#EB5A47" />
+
+                <ColorBox description="Background Primary" color="#f5f5f5" dark />
+                <ColorBox description="Background Secondary" color="#FAFAFA" dark />
+                <ColorBox description="Background Brand" color="#F8F7F5" dark />
+
+
+                <ColorBox description="Text Primary" color="#353F41" />
+                <ColorBox description="Text Secondary" color="#7b7b7b" />
+                <ColorBox description="Text Inactive" color="#bfbfbf" />
                 <ColorBox description="Divider" color="#e0e0e0" dark />
               </Row>
             </div>
