@@ -21,3 +21,4 @@ export { default as NotFoundPage } from "./NotFoundPage";
 export { default as DateDisplay } from "./DateDisplay";
 export { default as FlexRow } from "./FlexGrid/FlexRow";
 export { default as FlexColumn } from "./FlexGrid/FlexColumn";
+export { default as DocumentBox } from "./DocumentBox";

@@ -16,3 +16,4 @@ import "./SimpleLoader.story";
 import "./Textarea.story";
 import "./Topbar.story";
 import "./FlexGrid.story";
+import "./DocumentBox.story";
